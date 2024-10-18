@@ -169,6 +169,8 @@ header nav.menuDesktop ul li {
 
 section.topo-do-site {
     padding: 40px 4%;
+ 
+    
    
 }
 
@@ -177,17 +179,23 @@ section.topo-do-site .flex {
     align-items: center;
     justify-content: center;
     gap: 90px;
+    
 }
+
+
 
 .topo-do-site h1 {
     color: #fff;
-    font-size: 42px;
+    font-size: 38px;
     line-height: 40px;
+    
 
 }
 
 .topo-do-site .txt-topo-site h1 span {
     color: #00FF08;
+    
+   
 }
 
 .topo-do-site .txt-topo-site p {
@@ -263,7 +271,7 @@ section.sobre .flex {
 
 .interface .img-sobre img {
     border-radius: 30px;
-    height: 100vh;
+    
     
 }
 
@@ -488,6 +496,7 @@ footer .liner-footer p a {
 
     .topo-do-site .img-topo-site img {
         width: 100%;
+
     }
 
     /* Menu-mobile */
