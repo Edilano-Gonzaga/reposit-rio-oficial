@@ -188,7 +188,7 @@ section.topo-do-site  .flex {
 
 .topo-do-site h1 {
     color: #fff;
-    font-size: 38px;
+    font-size: 50px;
     line-height: 40px;
     
 
@@ -209,7 +209,7 @@ section.topo-do-site  .flex {
 .topo-do-site .img-topo-site img {
     position: relative;
     /* animation: flutuar 2s ease-in-out infinite alternate; */
-    height: 380px;
+    height: 300px;
     border-radius: 50%;
 
 }
