@@ -72,8 +72,14 @@ header>.interface {
     justify-content: space-between;
 }
 
+header .menuDesktop{
+    background-color: #5c5c5ca8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 header a {
-    color: #5c5c5c;
+    color: #fff;
     text-decoration: none;
     display: inline-block;
     transition: 0.2s;
@@ -169,16 +175,12 @@ header nav.menuDesktop ul li {
 
 section.topo-do-site {
     padding: 40px 4%;
- 
-    
-   
 }
 
-
-section.topo-do-site .flex {
+section.topo-do-site  .flex {
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 90px;   
     
 }
 
@@ -200,18 +202,19 @@ section.topo-do-site .flex {
 
 .topo-do-site .txt-topo-site p {
     color: #fff;
-    margin: 40px 0;
+    margin: 20px 0;
     text-align: justify;
 }
 
 .topo-do-site .img-topo-site img {
     position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
+    /* animation: flutuar 2s ease-in-out infinite alternate; */
     height: 380px;
+    border-radius: 50%;
 
 }
 
-@keyframes flutuar {
+/* @keyframes flutuar {
     0% {
         top: 0;
     }
@@ -219,7 +222,7 @@ section.topo-do-site .flex {
     100% {
         top: 30px;
     }
-}
+} */
 
 /*Estilo das Especialidade  */
 section.especialidades {
@@ -432,8 +435,8 @@ form .btn-enviar input {
 /* Estilo do Footer */
 
 footer {
-    padding: 40px 4%;
-    box-shadow: 0 0 40px 10px #ffffff27;
+    padding: 20px 4%;
+ 
 }
 
 footer .flex {
@@ -458,6 +461,11 @@ footer .liner-footer p a {
     color: #fff;
     margin-left: 5px;
 }
+
+footer .menuFooterMobile{
+    display: none;
+}
+
 
 @media screen and (max-width: 1020px) {
 
@@ -494,10 +502,6 @@ footer .liner-footer p a {
         font-size: 30px;
     }
 
-    .topo-do-site .img-topo-site img {
-        width: 100%;
-
-    }
 
     /* Menu-mobile */
     .btn-abrir-menu{
@@ -553,7 +557,29 @@ footer .liner-footer p a {
 
     footer .liner-footer{
         text-align: center;
+        padding: 20px 0;
     }
+
+    footer .menuFooterMobile{
+        display:inline-block;
+        width: 100%;
+
+    }
+
+    footer .menuFooterMobile ul a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        
+    }
+
+
+
+    
+
+   
 
    
 }
